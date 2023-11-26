@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    padding: 0px 100px 120px;
+    background: url("/img/banner.jpg") center center no-repeat;
+    height: 500px;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.parentNav {
+    padding-top: 43px;
+}
+
+.btnAboutUs {
+    color: #000;
+}
+
+.btnSignin {
+    display: inline-block;
+    padding: 7px 16px;
+    margin-left: 20px;
+    border: solid #1eb539;
+    color: #1eb539;
+    border-radius: 20px;
+}
+
+.btnAboutUs:hover,
+.btnSignin:hover {
+    text-decoration: underline;
+}
+
+.imgHeader {
+    margin-top: 100px;
+    background: url("/img/headBanner.png") center center no-repeat;
+    height: 100px;
+}
+
+.textBanner {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btnStart .btnStartBanner {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btnStart {
+    text-align: center;
+}
+
+.contentIconHead div {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contentIconHead div img {
+    height: 50px;
+}
+
+.contentIconHead div span {
+    display: block;
+    font-size: 28px;
+}

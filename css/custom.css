@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+.banner {
+  padding: 0px 100px 120px;
+  background: url("/img/banner.jpg") center center no-repeat;
+  height: 500px;
+}
+.banner .parentNav {
+  padding-top: 43px;
+}
+.banner .parentNav .nav {
+  text-align: right;
+}
+.banner .parentNav .nav a {
+  text-decoration: none;
+}
+.banner .parentNav .nav .btnAboutUs {
+  color: #000;
+}
+.banner .parentNav .nav .btnSignin {
+  display: inline-block;
+  padding: 7px 16px;
+  margin-left: 20px;
+  border: solid #1eb539;
+  color: #1eb539;
+  border-radius: 20px;
+}
+.banner .parentNav .nav .btnAboutUs:hover,
+.banner .parentNav .nav .btnSignin:hover {
+  text-decoration: underline;
+}
+.banner .imgHeader {
+  margin-top: 100px;
+  background: url("/img/headBanner.png") center center no-repeat;
+  height: 100px;
+}
+.banner .contentIconHead div {
+  width: 33.3333%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.banner .contentIconHead div img {
+  height: 50px;
+}
+.banner .contentIconHead div span {
+  display: block;
+  font-size: 28px;
+}
+.banner .textBanner {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.banner .btnStart {
+  text-align: center;
+}
+.banner .btnStart .btnStartBanner {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  cursor: pointer;
+}
